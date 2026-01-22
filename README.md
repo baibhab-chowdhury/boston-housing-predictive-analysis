@@ -1,13 +1,21 @@
-# Boston Housing 
+# Boston Housing – Interactive EDA Dashboard
 
-This repository contains an exploratory data analysis of the Boston Housing dataset as part of a Predictive Analytics assignment.
+This project is an interactive Exploratory Data Analysis (EDA) dashboard built using Streamlit and Plotly for the Boston Housing dataset.
 
-## Contents
-- Boston_Housing_EDA.ipynb : Main analysis notebook
-- Boston.csv : Dataset
+## How to Run
 
-## Tasks Covered
-- Dataset inspection
-- Feature subset analysis
-- Scatter plot visualization
-- Outlier detection using boxplots
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the app:
+   streamlit run apps/eda_app.py
+
+## Features
+
+- Interactive scatter plots
+- Filters using sliders
+- Boxplots for outlier detection
+- Histograms for distributions
+- Summary statistics and correlation heatmap
+
+
